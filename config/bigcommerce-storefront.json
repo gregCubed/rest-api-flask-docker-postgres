@@ -1,0 +1,10 @@
+{
+    "SAMPLE STORE KEY": {
+        "clientId": "abcdef67890ghijklmno12345pqrstu",
+        "clientSecret": "abcde23453456789067890pqrsklmno1z12tuvwxyfghijklmno1234567890pqr"
+    },
+    "SAMPLE TAX PROVIDER": {
+        "clientId": "no123456789abcdefghijklm0pqrstu",
+        "clientSecret": "kl0abcdefghijk67smno1234556789tuvwxyz1234lmno1234567890pqr890pqr"
+    }
+}

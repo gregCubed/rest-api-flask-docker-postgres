@@ -1,0 +1,10 @@
+{
+    "SAMPLE STORE KEY": {
+        "accessToken": "abcdefqrstuvwxhijklmnyz12345gop",
+        "clientId": "ijcdefmnyz12345goqrstuvkabwxhlp",
+        "storeHash": "abcdefqrst",
+        "storeCode": "fp",
+        "clientSecret": "abcdefghijklmnopqrstuvwxyz1234567890zyxwvutsrqponmlkjihgfedcba09",
+        "taxifyPW": "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456"
+    }
+}

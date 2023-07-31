@@ -1,0 +1,9 @@
+{
+    "SAMPLE DB KEY": {
+        "database": "DBNAME",
+        "username": "DBUSERNAME",
+        "password": "DBPASSWORD",
+        "host": "localhost",
+        "port": "1234"
+    }
+}

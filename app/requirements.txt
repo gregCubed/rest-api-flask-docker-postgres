@@ -1,0 +1,13 @@
+flask
+flask_cors
+pandas
+datetime
+simplejson
+pyjwt
+requests
+psycopg
+uwsgi
+# calendar
+# json
+# csv
+# time
