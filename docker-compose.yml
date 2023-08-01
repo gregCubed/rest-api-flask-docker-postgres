@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  nginx:
+    container_name: nginx_proxy
+    depends_on:
+      - uwsgi
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    logging:
+      options:
+        max-size: "50m"
+    ports:
+      - "443:443"
+    restart: always
+    volumes:
+      - /etc/letsencrypt/:/etc/letsencrypt/:ro
+      - /opt/dev-certs/api/:/opt/dev-certs/api/:ro
+  uwsgi:
+    container_name: uwsgi_app
+    build:
+      context: .
+      dockerfile: ./app/Dockerfile
+    logging:
+      options:
+        max-size: "50m"
+    restart: always
+    volumes:
+      - ./app/:/app/:ro
+      - ./config/:/config/
